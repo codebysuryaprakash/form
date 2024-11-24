@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="#" method="GET">
+
+        <div>
+            <label for="username">Username:</label>
+            <input name="uname" type="text" id="username" required >
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input name="email" type="email" id="email" required placeholder="xyz@gmail.com">
+        </div>
+
+        <div>
+            <label for="age">Age:</label>
+            <input name="age" type="number" id="age" min="18" max="30" step="2" placeholder="18">
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input name="password" type="password" id="password" required placeholder="atleast 6 characters">
+        </div>
+
+        <div>
+            <label for="dateofbirth">DOB:</label>
+            <input name="dateofbirth" type="date" id="dateofbirth" min="2024-08-08" >
+        </div>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
